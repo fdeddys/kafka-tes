@@ -1,0 +1,4 @@
+ zookeeper-server-start.bat .\zookeeper.properties
+kafka-server-start.bat .\server.properties
+
+kafka-console-consumer.bat --bootstrap-server 127.0.0.1:9092 --topic first_topic --group my-third-app
